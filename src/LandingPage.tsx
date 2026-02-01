@@ -69,7 +69,7 @@ const MoroccanWebAgencyLanding = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-teal-500 rounded-lg"></div>
-              <span className="text-xl font-bold text-gray-900">WebAgency.ma</span>
+              <span className="text-xl font-bold text-gray-900">DabaDigital</span>
             </div>
             <button 
               onClick={scrollToContact}
@@ -117,7 +117,7 @@ const MoroccanWebAgencyLanding = () => {
         </div>
       </section>
 
-      {/* Pain Points Section */}
+            {/* Pain Points Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
@@ -125,7 +125,7 @@ const MoroccanWebAgencyLanding = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Card 1 */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center">
               <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-6">
                 <CheckCircle className="text-teal-500" size={32} />
               </div>
@@ -137,7 +137,7 @@ const MoroccanWebAgencyLanding = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center">
               <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-6">
                 <BarChart className="text-teal-500" size={32} />
               </div>
@@ -149,7 +149,7 @@ const MoroccanWebAgencyLanding = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center">
               <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-6">
                 <Zap className="text-teal-500" size={32} />
               </div>
@@ -163,7 +163,7 @@ const MoroccanWebAgencyLanding = () => {
         </div>
       </section>
 
-      {/* Features Section */}
+            {/* Features Section */}
       <section className="py-20" id="projects">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
@@ -171,7 +171,7 @@ const MoroccanWebAgencyLanding = () => {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Feature 1 */}
-            <div className="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-100">
+            <div className="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-100 flex flex-col items-center text-center">
               <div className="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center mb-4">
                 <Smartphone className="text-white" size={24} />
               </div>
@@ -182,7 +182,7 @@ const MoroccanWebAgencyLanding = () => {
             </div>
 
             {/* Feature 2 */}
-            <div className="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-100">
+            <div className="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-100 flex flex-col items-center text-center">
               <div className="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center mb-4">
                 <Search className="text-white" size={24} />
               </div>
@@ -193,7 +193,7 @@ const MoroccanWebAgencyLanding = () => {
             </div>
 
             {/* Feature 3 */}
-            <div className="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-100">
+            <div className="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-100 flex flex-col items-center text-center">
               <div className="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="text-white" size={24} />
               </div>
@@ -204,7 +204,7 @@ const MoroccanWebAgencyLanding = () => {
             </div>
 
             {/* Feature 4 */}
-            <div className="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-100">
+            <div className="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-100 flex flex-col items-center text-center">
               <div className="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center mb-4">
                 <Headphones className="text-white" size={24} />
               </div>
@@ -419,7 +419,7 @@ const MoroccanWebAgencyLanding = () => {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-teal-500"
-                  placeholder="Votre nom complet"
+                  placeholder="Votre nom"
                   required
                 />
               </div>
@@ -478,7 +478,7 @@ const MoroccanWebAgencyLanding = () => {
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="flex items-center space-x-2 mb-4 md:mb-0">
                   <div className="w-8 h-8 bg-teal-500 rounded-lg"></div>
-                  <span className="text-xl font-bold">WebAgency.ma</span>
+                  <span className="text-xl font-bold">DabaDigital</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone size={20} className="text-gray-400" />
